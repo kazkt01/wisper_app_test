@@ -26,13 +26,3 @@
   - **CPU** では `compute_type=int8` を基本に動作
 
 ---
-
-## ディレクトリ構成
-
-wisper_app_test/
-├── app/
-│ ├── init.py
-│ ├── asr.py # 変換(16kHz/mono) & Whisper推論（compute_typeの自動フォールバック）
-│ └── main.py # FastAPI本体（/api/transcribe, /ui, /→/ui）
-└── web/
-└── index.html # 最小UI（アップロード & SRTダウンロード）
