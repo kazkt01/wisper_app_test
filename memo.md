@@ -7,6 +7,9 @@ cd wisper_app_test
 python3 -m venv .venv
 source .venv/bin/activate
 
+<!-- 仮想環境を無効化するには -->
+deactivate
+
 <!-- その中で起動し -->
 uvicorn app.main:app --reload --port 8000
 
@@ -25,7 +28,6 @@ curl -o out.srt -X POST \
   -F "file=@test.wav" \
   -F "language=ja" \
   "http://127.0.0.1:8000/api/transcribe?srt=1"
-
 
 
 
