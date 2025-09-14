@@ -33,8 +33,6 @@ curl -o out.srt -X POST \
 
 
 
-
-
 2025/09/02
 ・wisperをローカルに落とす。
 ・Fast APIで外部から叩ける仕様にする。
