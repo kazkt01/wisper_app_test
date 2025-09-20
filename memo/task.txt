@@ -3,3 +3,5 @@ RendernにデプロイとAPIの制限をかける。
 2、簡易フロントをNext_14に組み込んでみる？
 
 
+
+saijdpadjapodapodpsodkapo
